@@ -1,0 +1,162 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000; /* Letras pretas */
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Estilo do cabeçalho e navegação */
+.header-menu {
+    background-color: #4B0082; /* Roxo */
+    color: #fff; /* Letras brancas */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff; /* Letras brancas */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do main e seções */
+main {
+    padding: 2rem 1rem;
+}
+
+.principal, .principal-2, .principal-3 {
+    background-color: #FFC0CB; /* Rosa */
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza a imagem */
+.div-img {
+    max-width: 300px;
+    margin: 0 auto 2rem; /* Centraliza a imagem */
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #FFC0CB; /* Rosa */
+}
+
+.div-img img {
+    border-radius: 50px;
+    width: 120%;
+    height: auto;
+}
+
+/* Estiliza os títulos */
+.titulo1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #FFC0CB; /* Rosa */
+}
+
+.titulo1 h1, .titulo1 h2 {
+    margin-bottom: 0.5rem;
+    color: #4B0082; /* Roxo */
+}
+
+/* Estiliza o texto */
+.texto-1 {
+    max-width: 800px;
+    margin: 0 auto 2rem; /* Centraliza e adiciona espaçamento inferior */
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #FFC0CB; /* Rosa */
+}
+
+.texto-1 p {
+    margin-bottom: 1rem;
+}
+
+/* Lista de itens */
+.lista-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-item ul li {
+    margin-bottom: 1.5rem;
+}
+
+.lista-item ul li a {
+    color: #C71585; /* Rosa bebê */
+    text-decoration: none;
+}
+
+.lista-item ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do rodapé */
+.footer {
+    background-color: #4B0082; /* Roxo */
+    color: #fff; /* Letras brancas */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .lista-footer {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .lista-footer li {
+    margin-bottom: 1rem;
+}
+
+.footer .lista-footer li a {
+    color: #fff; /* Letras brancas */
+    text-decoration: none;
+}
+
+.footer .lista-footer li a:hover {
+    text-decoration: underline;
+}
+
+/* Ícones */
+.estilo-icon {
+    margin-right: 0.5rem;
+    color: #fff; /* Cor dos ícones branca */
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        margin: 0 2rem;
+    }
+}
